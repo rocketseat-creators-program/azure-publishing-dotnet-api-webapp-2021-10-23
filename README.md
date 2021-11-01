@@ -7,7 +7,7 @@ Ao final desta aula teremos uma API .Net publicada na Azure usando Aure Web Apps
 ## Executar a aplicação
 
 1. Basta baixar usando <br />`git clone https://github.com/rocketseat-experts-club/azure-publishing-dotnet-api-webapp-2021-10-23`
-3. Com o Visual Studio 2019 instalado, basta abrir a solution do projeto
+3. Com o Visual Studio 2019 instalado, basta abrir a solution do projeto e apertar F5
 
 ## Sobre a Aula
 
