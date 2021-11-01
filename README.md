@@ -15,9 +15,14 @@ Nesta aula vou te mostrar o passso a passo sobre como públicar aplicações .ne
 
 ## Link e informações de apoio
 
-- Comando para criar o token AZURE_CREDENTIALS de permissionamento que utilizamos no Github Actions:<br />
-Basta abrir o "Cloud Shell" e digitar: <br />`az ad sp create-for-rbac --name "GHActionsPipelineEC02" --role contributor --scopes /subscriptions/<subscription uuid>/resourceGroups/<resource group name> --sdk-auth`<br /> 
-(substitua o subscription id e o sresource group conforme fizemos no vídeo)
+- Comando para criação do principal/RBAC:
+
+```
+az ad sp create-for-rbac --name "<name>" --role contributor --scopes /subscriptions/<subscription>/resourceGroups/<group> --sdk-auth
+```
+
+- Link Código do Pipeline:<br />
+https://github.com/rocketseat-experts-club/azure-publishing-dotnet-api-webapp-2021-10-23/blob/main/.github/workflows/deployment-staging.yml
 
 - Link Azure:<br />
 https://portal.azure.com/
