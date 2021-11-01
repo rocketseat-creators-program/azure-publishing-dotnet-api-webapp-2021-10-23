@@ -23,7 +23,7 @@ namespace HelloWorldAPI
         public async Task<IActionResult> Hello()
         {
             return Ok(new {
-                Message = "Hello World",
+                Message = "Hello Experts!",
                 Now = DateTime.Now,
                 Count = _counter++,
                 Name = _config["AppName"]
